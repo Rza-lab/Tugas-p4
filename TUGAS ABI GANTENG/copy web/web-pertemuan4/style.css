@@ -1,0 +1,51 @@
+/* Formulir Registrasi */
+main h1 {
+  text-align: center;
+  color: cornflowerblue;
+  margin-top: 100px;
+}
+
+form {
+  background-color: rgb(170, 0, 255);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 20px auto;
+}
+
+form label {
+  color: #333;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid cornflowerblue;
+  border-radius: 5px;
+}
+
+form input[type="radio"] {
+  margin: 0 5px;
+}
+
+form input[type="radio"] + label {
+  margin-right: 15px;
+}
+
+form input[type="submit"],
+form button {
+  background-color: cornflowerblue;
+  color: rgb(208, 0, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
